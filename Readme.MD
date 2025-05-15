@@ -222,3 +222,8 @@ docker image prune
 ```Bash
 docker volume prune
 ```
+
+**Para executar o postgres dentro da docker:**
+```Bash
+docker exec -it postgres_db psql -U postgres -d mydatabase
+```
